@@ -1,0 +1,16 @@
+{
+  "name": "15-hotrestaurant",
+  "version": "1.0.0",
+  "description": "first full stack web app",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
