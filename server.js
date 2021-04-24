@@ -19,7 +19,7 @@ app.get('/tables', (req, res) => res.sendFile(path.join(__dirname, 'table.html')
 
 
 
-app.get('/api/reserve', (req, res) => res.json(reservations));
+app.get('/api/tables', (req, res) => res.json(reservations));
 app.get('/api/waitlist', (req, res) => res.json(waitlist));
 
 app.post('/api/reservations', (req, res) => {
